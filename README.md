@@ -26,13 +26,7 @@ The notebook expects the HubSpot CSV export to be in the same directory and name
 | `pandas` | Loading, cleaning, filtering, and grouping the HubSpot contact data |
 | `matplotlib.pyplot` | Creating all bar charts and histograms used in the analysis |
 
-Both libraries are available by default in Google Colab. If running locally, install them with:
-
-```
-pip install pandas matplotlib
-```
-
----
+Both libraries are available by default in Google Colab. 
 
 ## Notebook Sections
 
@@ -62,8 +56,6 @@ The analysis uses a single exported CSV file from HubSpot. Key columns include:
 - `Number of Sales Activities`, `Number of times contacted`, `Number of Associated Deals`
 - `Marketing emails opened`, `Marketing emails clicked`, `Marketing emails replied`
 - Pipeline stage date columns (e.g., `Date entered "Customer (Lifecycle Stage Pipeline)"`)
-
-The notebook uses only columns that are present in the file, so it will not break if some fields are missing from a different export.
 
 ---
 
