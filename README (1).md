@@ -1,13 +1,13 @@
 # JPC HubSpot Contact Analysis
 
-This notebook analyzes an exported HubSpot contact dataset for Justin Panzer Consulting (JPC), a boutique B2B marketing consultancy. The goal is to use existing CRM data to identify patterns in contact engagement, pipeline movement, and customer conversion. Findings are meant to support recommendations around follow-up prioritization and pipeline management.
+This notebook analyzes an exported HubSpot contact dataset for Justin Panzer Consulting (JPC), a boutique B2B marketing consultancy. The goal is to use existing CRM data to identify patterns in contact engagement, pipeline movement, and customer conversion. Findings are meant to support recommendations around follow up prioritization and pipeline management.
 
 ---
 
 ## Libraries Used
 
-- pandas — loading, cleaning, filtering, and grouping the contact data
-- matplotlib.pyplot — creating bar charts and histograms
+- pandas: loading, cleaning, filtering, and grouping the contact data
+- matplotlib.pyplot: creating bar charts and histograms
 
 Both libraries are available by default in Google Colab. 
 
