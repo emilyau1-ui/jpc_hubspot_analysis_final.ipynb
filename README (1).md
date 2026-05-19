@@ -6,10 +6,10 @@ This notebook analyzes an exported HubSpot contact dataset for Justin Panzer Con
 
 ## Libraries Used
 
-- **pandas** — loading, cleaning, filtering, and grouping the contact data
-- **matplotlib.pyplot** — creating bar charts and histograms
+- pandas — loading, cleaning, filtering, and grouping the contact data
+- matplotlib.pyplot — creating bar charts and histograms
 
-Both libraries are available by default in Google Colab. To install locally: `pip install pandas matplotlib`
+Both libraries are available by default in Google Colab. 
 
 ---
 
@@ -17,7 +17,7 @@ Both libraries are available by default in Google Colab. To install locally: `pi
 
 ```
 jpc_hubspot_analysis_final.ipynb                   # Main analysis notebook
-hubspot-crm-exports-all-contacts-2026-04-10.csv    # Required data file (not included in repo)
+hubspot-crm-exports-all-contacts-2026-04-10.csv    # Required data file 
 README.md                                          # Project documentation
 ```
 
